@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between text-sm text-gray-600">
-          <p>© 2023 Titi. All rights reserved.</p>
+          <p>© 2023 Thokozani Tshabalala. All rights reserved until site is purchased.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="hover:text-gray-800">Privacy Policy</a>
             <a href="#" className="hover:text-gray-800">Terms of Service</a>
