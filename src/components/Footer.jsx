@@ -16,7 +16,7 @@ const Footer = () => {
                 placeholder="Your email address" 
                 className="flex-1 px-4 py-2 border border-gray-300 rounded-l focus:outline-none"
               />
-              <button className="px-4 py-2 bg-black text-white rounded-r">Join</button>
+              <button className="px-4 py-2 bg-pink-500 text-white rounded-r">Join</button>
             </div>
             <p className="text-xs text-gray-500">
               By joining, you agree that Titi will send content to maintain updates.

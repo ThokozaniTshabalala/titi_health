@@ -15,7 +15,7 @@ const CTA = () => {
               placeholder="Your email address" 
               className="flex-1 px-4 py-2 border border-gray-300 rounded-l focus:outline-none focus:ring-2 focus:ring-gray-200"
             />
-            <button className="px-4 py-2 bg-black text-white rounded-r hover:bg-gray-800">Join</button>
+            <button className="px-4 py-2 bg-pink-500 text-white rounded-r hover:bg-gray-800">Join</button>
           </div>
           <p className="text-xs text-gray-500 mt-2">
             By joining, you agree that Zago will send content to maintain updates.
