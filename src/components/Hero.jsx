@@ -23,9 +23,14 @@ const Hero = () => {
           Indulge in a world of luxury and tranquility. Our hands-on beauty treatments are designed to rejuvenate your body and mind.
         </p>
         <div className="flex justify-center space-x-4">
-          <button className="px-6 py-2 bg-pink-500 text-gray-800 rounded hover:bg-gray-100">Book</button>
-          <button className="px-6 py-2 bg-transparent border border-pink-500 rounded hover:bg-pink-500 hover:text-gray-800">Learn More</button>
-        </div>
+  <button className="px-6 py-2 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 shadow-md hover:bg-white/20 transition">
+    Book
+  </button>
+  <button className="px-6 py-2 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 shadow-md hover:bg-white/20 transition">
+    Learn More
+  </button>
+</div>
+
       </div>
     </section>
   );
