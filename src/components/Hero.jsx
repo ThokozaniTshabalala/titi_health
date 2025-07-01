@@ -2,36 +2,27 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section 
-      className="relative text-white text-center overflow-hidden bg-gray-600" 
-      style={{ height: '637px' }}
-    >
-      {/* Background Image */}
-      <img 
-        src="./final_banner_woman.png" 
-        alt="Spa treatment background" 
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-      
-      {/* Overlay to ensure text readability */}
-      <div className="absolute inset-0 bg-gray-800 opacity-50"></div>
-      
-      {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full px-6">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Revitalize Your Senses with Our Services</h2>
-        <p className="max-w-lg mx-auto mb-8 text-gray-100">
-          Indulge in a world of luxury and tranquility. Our hands-on beauty treatments are designed to rejuvenate your body and mind.
+    <section className="flex flex-col md:flex-row items-start justify-center gap-18 px-2 py-12 bg-white max-w-5xl mx-auto">
+      {/* Text Content */}
+      <div className="w-1/2 -ml-8">
+        <h2 className="pt-2 text-6xl font-bold mb-2 text-black">Allow Your Body</h2>
+        <h3 className="text-5xl mb-6 text-black" style={{ fontFamily: 'Charmonman, cursive' }}>
+          to Rest
+        </h3>
+        <p className="py-4 mb-4 text-black text-2xl">
+          Slow down, heal, and feel whole again — because true beauty begins with wellness.
         </p>
-        <div className="flex justify-center space-x-4">
-  <button className="px-6 py-2 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 shadow-md hover:bg-white/20 transition">
-    Book
-  </button>
-  <button className="px-6 py-2 rounded-lg backdrop-blur-md bg-white/10 text-white border border-white/20 shadow-md hover:bg-white/20 transition">
-    Learn More
-  </button>
-</div>
+        <p className="mb-9 text-black text-2xl">
+          Give your body what it needs, book an appointment now
+        </p>
+        <button className="px-8 py-2 text-2xl rounded-xl bg-pink-600 text-white shadow-md hover:bg-pink-700 transition">
+          Book
+        </button>
 
       </div>
+
+      {/* Placeholder Image */}
+      <div className="w-[450px] h-[450px] bg-gray-300 rounded-[50px]"></div>
     </section>
   );
 };
