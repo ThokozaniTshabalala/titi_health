@@ -1,7 +1,7 @@
 // sliderSettings.js in utils directory
 export const sliderSettings = {
   slidesPerView: 'auto', // Show 3 slides at once
-  spaceBetween: 15, // Consistent spacing between slides
+  spaceBetween: 10, // Consistent spacing between slides
   loop: false,       // Infinite scrolling
   grabCursor: true, // Show grab cursor on hover
   centeredSlides: false,
