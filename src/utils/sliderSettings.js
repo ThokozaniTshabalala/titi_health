@@ -1,7 +1,7 @@
 // sliderSettings.js in utils directory
 export const sliderSettings = {
   slidesPerView: 'auto', // Changed to auto to respect card max-width
-  spaceBetween: 30,
+  spaceBetween: 25,
   loop: false,
   grabCursor: true,
   centeredSlides: false,
@@ -9,23 +9,23 @@ export const sliderSettings = {
   breakpoints: {
     320: {
       slidesPerView: 1,
-      spaceBetween: 20
+      spaceBetween: 15
     },
     640: {
       slidesPerView: 2,
-      spaceBetween: 25
+      spaceBetween: 20
     },
     768: {
       slidesPerView: 3,
-      spaceBetween: 25
+      spaceBetween: 20
     },
     1024: {
       slidesPerView: 4,
-      spaceBetween: 30
+      spaceBetween: 25
     },
     1280: {
       slidesPerView: 4,
-      spaceBetween: 35
+      spaceBetween: 30
     }
   }
 };
