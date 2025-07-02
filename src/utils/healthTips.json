@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Stay Hydrated",
+    "description": "Drinking enough water daily keeps your skin and body healthy.",
+    "author": "Dr. Lisa Brown",
+    "readTime": "2 minutes read"
+  },
+  {
+    "id": 2,
+    "title": "Get Enough Sleep",
+    "description": "Quality sleep helps your body recover and boosts your mental health.",
+    "author": "Dr. Alex White",
+    "readTime": "3 minutes read"
+  },
+  {
+    "id": 3,
+    "title": "Daily Exercise",
+    "description": "Even light exercise like walking improves circulation and mood.",
+    "author": "Dr. Sarah Green",
+    "readTime": "2 minutes read"
+  },
+  {
+    "id": 4,
+    "title": "Balanced Diet",
+    "description": "Eating a variety of fruits and vegetables provides essential nutrients.",
+    "author": "Dr. Michael Blue",
+    "readTime": "4 minutes read"
+  }
+]

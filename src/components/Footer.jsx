@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="py-12 px-6 bg-white border-t border-gray-200">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Titi</h3>
             <p className="text-gray-600 mb-4">
@@ -22,25 +22,12 @@ const Footer = () => {
               By joining, you agree that Titi will send content to maintain updates.
             </p>
           </div>
-          <div>
-            <h4 className="font-bold mb-4">Column One</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 hover:text-gray-800">Link One</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-800">Link Two</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-800">Link Three</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-800">Link Four</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-gray-800">Link Five</a></li>
-            </ul>
-          </div>
 
-          
           <div>
             <h4 className="font-bold mb-4">Address</h4>
-           <p className="text-gray-600 hover:text-gray-800">42156 Corner Dungani Modiba<br/>
-           Tsakane Ext.19<br/>Brakpan.</p>
+            <p className="text-gray-600 hover:text-gray-800">42156 Corner Dungani Modiba<br/>
+            Tsakane Ext.19<br/>Brakpan.</p>
           </div>
-          
-          
           
           <div>
             <h4 className="font-bold mb-4">Follow Us</h4>

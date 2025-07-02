@@ -1,25 +1,24 @@
-import Header from './components/Header'
-import Hero from './components/Hero'
-import HowItWorks from './components/Services/ServicesSlider'
-import Features from './components/Features'
-import CTA from './components/CTA'
-import BlogList from './components/BlogList'
-import Footer from './components/Footer'
-import './App.css'
+// src/App.jsx
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
-function App() {
-
+const App = () => {
   return (
     <>
       <Header />
-      <Hero />
-      <HowItWorks />
-      <Features />
-      <CTA />
-      <BlogList />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
