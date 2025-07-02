@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ price, image, title, description, onMoreDetails }) => {
   return (
-    <div className="relative w-80 rounded-[20px] bg-white shadow-lg hover:shadow-xl overflow-hidden select-none font-sans transition-shadow duration-300">
+    <div className="relative w-full max-w-[320px] mx-auto rounded-[20px] bg-white shadow-lg hover:shadow-xl overflow-hidden select-none font-sans transition-shadow duration-300">
       <div className="absolute top-4 left-4 bg-white px-3 py-1.5 rounded-[20px] font-semibold text-sm shadow-md z-10">
         {price}
       </div>
