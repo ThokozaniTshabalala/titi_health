@@ -34,7 +34,7 @@ function ServicesSlider() {
   };
 
   return (
-    <section className="services-wrapper">
+    <section className="services-wrapper pb-9">
       {/* Full-width underline */}
       <div className="w-full h-px bg-gray-300 mb-8"></div>
       
@@ -56,13 +56,14 @@ function ServicesSlider() {
 
           <Swiper 
             {...sliderSettings} 
-            className="services-swiper" 
+            className="services-swiper pb-8"
             ref={swiperRef}
             onSlideChange={handleSlideChange}
             onSwiper={handleSwiperInit}
           >
             {spaData.map((service) => (
-              <SwiperSlide key={service.id}>
+              <SwiperSlide key={service.id} 
+              className="pb-8">
                 <Card
                   image={service.image}
                   price={service.price}
