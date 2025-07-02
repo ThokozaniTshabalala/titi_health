@@ -1,5 +1,6 @@
 import React from 'react';
 import services from '../utils/fullServiceDescription.json';
+import Footer from '../components/Footer'; // Import the footer
 
 const Services = () => {
   return (
@@ -62,6 +63,9 @@ const Services = () => {
           </section>
         );
       })}
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
