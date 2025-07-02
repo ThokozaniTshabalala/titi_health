@@ -1,0 +1,95 @@
+[
+  {
+    "id": "card1",
+    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "title": "General Health & Consultation",
+    "table": [
+      { "service": "Consultation", "price": "R300" },
+      { "service": "Follow-up Consultation (within 7 days)", "price": "R150" },
+      { "service": "Wound Care", "price": "R250" },
+      { "service": "Pap Smear", "price": "R250" },
+      { "service": "Vitamin BCO Injection", "price": "R150" },
+      { "service": "Pregnancy Test", "price": "R80" },
+      { "service": "HIV Testing", "price": "R120" },
+      { "service": "Urine Testing", "price": "R40" },
+      { "service": "BP Check", "price": "R50" },
+      { "service": "Sugar/Glucose Check", "price": "R40" },
+      { "service": "Cholesterol Check", "price": "R90" },
+      { "service": "Voltaren Injection", "price": "R50" },
+      { "service": "Gout Pack", "price": "R50" },
+      { "service": "Flu Pack", "price": "R50" },
+      { "service": "PDP Forms", "price": "R160" }
+    ]
+  },
+  {
+    "id": "card2",
+    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "title": "Immunizations / Well-Baby Clinic",
+    "table": [
+      { "service": "6 Weeks", "price": "R350" },
+      { "service": "10 Weeks", "price": "R200" },
+      { "service": "14 Weeks", "price": "R350" },
+      { "service": "6 Months", "price": "R350" },
+      { "service": "9 Months", "price": "R200" },
+      { "service": "12 Months", "price": "R350" },
+      { "service": "6 Years", "price": "R350" },
+      { "service": "12 Years", "price": "R350" },
+      { "service": "Weighting + Vit A + Deworm (2–5 years)", "price": "R150" },
+      { "service": "Weighing Only", "price": "R50" },
+      { "service": "Catch-up Immunizations", "price": "R350" }
+    ]
+  },
+  {
+    "id": "card3",
+    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "title": "Family Planning & Sexual Reproductive Health",
+    "table": [
+      { "service": "First Visit Family Planning", "price": "R150" },
+      { "service": "Follow-up", "price": "R120" },
+      { "service": "Implanon Insertion", "price": "R1000" },
+      { "service": "Implanon Removal", "price": "R450" },
+      { "service": "Loop Removal", "price": "R450" },
+      { "service": "Morning After Pill", "price": "Contact for price" }
+    ]
+  },
+  {
+    "id": "card4",
+    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "title": "Antenatal Care",
+    "table": [
+      { "service": "Parental Care", "price": "R350" },
+      { "service": "First ANC Visit", "price": "R550" },
+      { "service": "ANC Follow-up", "price": "R400" },
+      { "service": "Antenatal Classes", "price": "R500 (by booking only)" }
+    ]
+  },
+  {
+    "id": "card5",
+    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "title": "PREP Treatment",
+    "table": [
+      { "service": "PREP Treatment (First Visit)", "price": "R500" },
+      { "service": "PREP Treatment (Follow-up)", "price": "R400" }
+    ]
+  },
+  {
+    "id": "card6",
+    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "title": "Vitamin Drip Menu (All Drips R600)",
+    "table": [
+      { "service": "Flawless Glow", "price": "" },
+      { "service": "Acne Buster", "price": "" },
+      { "service": "Fertility", "price": "" },
+      { "service": "Energy Booster", "price": "" },
+      { "service": "Libido/Sex Booster", "price": "" },
+      { "service": "Hangover (BABALAS)", "price": "" },
+      { "service": "Detox", "price": "" },
+      { "service": "Slimming", "price": "" },
+      { "service": "Brain Boost", "price": "" },
+      { "service": "Migraine", "price": "" },
+      { "service": "Iron Booster", "price": "" },
+      { "service": "Gout", "price": "" },
+      { "service": "Vitaglow", "price": "" }
+    ]
+  }
+]
