@@ -6,6 +6,7 @@ import BreakReminder from '../components/BreakReminder';
 import CTA from '../components/CTA';
 import BlogList from '../components/HealthTips/BlogList';
 import Footer from '../components/Footer';
+import WhatsAppFloat from '../components/WhatsApp/WhatsAppFloat';
 
 const Home = () => {
   return (
@@ -16,6 +17,12 @@ const Home = () => {
       <CTA />
       <BlogList />
       <Footer />
+      
+      {/* WhatsApp Float Button */}
+      <WhatsAppFloat 
+        phoneNumber="+27698061824" // Replace with your WhatsApp number
+        message="Hello! I'm interested in your services and would like to know more."
+      />
     </>
   );
 };

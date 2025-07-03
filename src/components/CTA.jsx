@@ -1,4 +1,5 @@
 import React from 'react';
+import { whatsappActions } from '../utils/whatsappUtils'
 
 const CTA = () => {
   return (
@@ -15,7 +16,9 @@ const CTA = () => {
             <li>Personalized care</li>
             <li>5-star rated services</li>
           </ul>
-          <button className="bg-pink-600 hover:bg-pink-700 text-white  py-3 px-8 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75">
+          <button
+          onClick={whatsappActions.requestConsultation}
+          className="bg-pink-600 hover:bg-pink-700 text-white  py-3 px-8 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75">
             Get A consultation
           </button>
         </div>

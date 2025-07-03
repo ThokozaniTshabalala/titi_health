@@ -1,12 +1,34 @@
 import React from 'react';
 import services from '../utils/fullServiceDescription.json';
-import Footer from '../components/Footer'; // Import the footer
+import Footer from '../components/Footer';
+import { whatsappActions } from '../utils/whatsappUtils';
 
 const Services = () => {
+  // Function to get the appropriate WhatsApp action based on service title
+  const getWhatsAppAction = (serviceTitle) => {
+    switch (serviceTitle) {
+      case 'General Health & Consultation':
+        return whatsappActions.generalHealth;
+      case 'Immunizations / Well-Baby Clinic':
+        return whatsappActions.immunizations;
+      case 'Family Planning & Sexual Reproductive Health':
+        return whatsappActions.familyPlanning;
+      case 'Antenatal Care':
+        return whatsappActions.antenatalService;
+      case 'PREP Treatment':
+        return whatsappActions.prepTreatment;
+      case 'Vitamin Drip Menu (All Drips R600)':
+        return whatsappActions.vitaminDrip;
+      default:
+        return whatsappActions.bookSession; // Fallback to general booking
+    }
+  };
+
   return (
     <div className="p-10 min-h-screen">
       {services.map((service, index) => {
         const isEven = index % 2 === 0;
+        const whatsappAction = getWhatsAppAction(service.title);
 
         return (
           <section
@@ -44,7 +66,10 @@ const Services = () => {
                   </table>
                 </div>
 
-                <button className="bg-pink-600 hover:bg-pink-700 text-white py-3 px-8 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75">
+                <button 
+                  onClick={whatsappAction}
+                  className="bg-pink-600 hover:bg-pink-700 text-white py-3 px-8 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75"
+                >
                   Book Now
                 </button>
               </div>
