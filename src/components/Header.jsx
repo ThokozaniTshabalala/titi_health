@@ -13,7 +13,7 @@ const Header = () => {
     <header className="py-4 px-6 bg-white relative">
       <div className="w-full md:w-2/3 mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl text-pink-500 font-bold font-greatVibes">Titi</h1>
+        <h1 className="text-2xl text-pink-500 font-bold font-greatVibes">TiTi</h1>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center justify-center flex-1 px-8">
