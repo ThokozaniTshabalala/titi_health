@@ -77,19 +77,19 @@
     "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
     "title": "Vitamin Drip Menu (All Drips R600)",
     "table": [
-      { "service": "Flawless Glow", "price": "" },
-      { "service": "Acne Buster", "price": "" },
-      { "service": "Fertility", "price": "" },
-      { "service": "Energy Booster", "price": "" },
-      { "service": "Libido/Sex Booster", "price": "" },
-      { "service": "Hangover (BABALAS)", "price": "" },
-      { "service": "Detox", "price": "" },
-      { "service": "Slimming", "price": "" },
-      { "service": "Brain Boost", "price": "" },
-      { "service": "Migraine", "price": "" },
-      { "service": "Iron Booster", "price": "" },
-      { "service": "Gout", "price": "" },
-      { "service": "Vitaglow", "price": "" }
+      { "service": "Flawless Glow", "price": "R600" },
+      { "service": "Acne Buster", "price": "R600" },
+      { "service": "Fertility", "price": "R600" },
+      { "service": "Energy Booster", "price": "R600" },
+      { "service": "Libido/Sex Booster", "price": "R600" },
+      { "service": "Hangover (BABALAS)", "price": "R600" },
+      { "service": "Detox", "price": "R600" },
+      { "service": "Slimming", "price": "R600" },
+      { "service": "Brain Boost", "price": "R600" },
+      { "service": "Migraine", "price": "R600" },
+      { "service": "Iron Booster", "price": "R600" },
+      { "service": "Gout", "price": "R600" },
+      { "service": "Vitaglow", "price": "R600" }
     ]
   }
 ]
