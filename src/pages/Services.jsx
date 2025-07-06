@@ -1,10 +1,27 @@
-import React from 'react';
+// src/pages/Services.jsx
+import React, { useEffect } from 'react';
 import services from '../utils/fullServiceDescription.json';
 import Footer from '../components/Footer';
 import { whatsappActions } from '../utils/whatsappUtils';
+import { useLocation } from 'react-router-dom';
 
 const Services = () => {
-  // Function to get the appropriate WhatsApp action based on service title
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const id = hash.replace('#', '');
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [hash]);
+
+  const titleToId = (title) => {
+    return title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  };
+
   const getWhatsAppAction = (serviceTitle) => {
     switch (serviceTitle) {
       case 'General Health & Consultation':
@@ -19,8 +36,10 @@ const Services = () => {
         return whatsappActions.prepTreatment;
       case 'Vitamin Drip Menu (All Drips R600)':
         return whatsappActions.vitaminDrip;
+      case 'Beauty Facial':
+        return whatsappActions.bookSession; // or create a specific action for beauty services
       default:
-        return whatsappActions.bookSession; // Fallback to general booking
+        return whatsappActions.bookSession;
     }
   };
 
@@ -33,12 +52,11 @@ const Services = () => {
         return (
           <section
             key={service.id}
+            id={titleToId(service.title)}
             className="py-16 px-6 bg-white flex items-center justify-center"
           >
             <div
-              className={`max-w-6xl mx-auto flex flex-col md:flex-row ${
-                isEven ? '' : 'md:flex-row-reverse'
-              } items-center justify-between gap-10 w-full`}
+              className={`max-w-6xl mx-auto flex flex-col md:flex-row ${isEven ? '' : 'md:flex-row-reverse'} items-center justify-between gap-10 w-full`}
             >
               {/* Text Section */}
               <div className="w-full md:w-1/2 text-center md:text-left">
@@ -66,7 +84,7 @@ const Services = () => {
                   </table>
                 </div>
 
-                <button 
+                <button
                   onClick={whatsappAction}
                   className="bg-pink-600 hover:bg-pink-700 text-white py-3 px-8 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-opacity-75"
                 >

@@ -91,5 +91,19 @@
       { "service": "Gout", "price": "R600" },
       { "service": "Vitaglow", "price": "R600" }
     ]
+  },
+  {
+    "id": "card7",
+    "image": "/ServiceCardImages/BEAUTY_022343.jpg",
+    "title": "Beauty Facial",
+    "table": [
+      { "service": "Basic Facial", "price": "R350" },
+      { "service": "Deep Cleansing Facial", "price": "R450" },
+      { "service": "Anti-Aging Facial", "price": "R550" },
+      { "service": "Hydrating Facial", "price": "R400" },
+      { "service": "Acne Treatment Facial", "price": "R500" },
+      { "service": "Brightening Facial", "price": "R475" },
+      { "service": "Sensitive Skin Facial", "price": "R375" }
+    ]
   }
 ]
