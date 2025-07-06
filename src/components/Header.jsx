@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="py-4 px-6 bg-black relative rounded-b-md">
+    <header className="py-4 px-4 bg-black relative rounded-b-md">
       <div className="w-full md:w-2/3 mx-auto flex justify-between items-center">
         {/* Logo on the Left */}
         <h1 className="text-2xl text-pink-500 font-bold font-greatVibes">TiTi</h1>
