@@ -16,7 +16,7 @@ const Header = () => {
         <h1 className="text-2xl text-pink-500 font-bold font-greatVibes">TiTi</h1>
 
         {/* Right Side: Nav + Buttons */}
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-4">
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6">
             <Link to="/" className="text-lg text-white hover:text-pink-400">Home</Link>
