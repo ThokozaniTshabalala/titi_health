@@ -25,11 +25,20 @@ const CTA = () => {
 
         {/* Right side: Grey image placeholder */}
         <div className="w-full md:w-1/2 flex justify-center items-center">
-          <div className="bg-gray-200 rounded-3xl w-full max-w-lg h-80 md:h-96 flex items-center justify-center">
-            {/* This div is intended to hold an image, if one were to be added later */}
-            <span className="text-gray-500 text-xl">Image Placeholder</span>
+          <div className="bg-gray-200 rounded-3xl w-full max-w-lg h-80 md:h-96 flex items-center justify-center overflow-hidden">
+            <video 
+            src="/whyChooseUsVideo.mp4" // Replace this with your actual video path
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+            >
+            Your browser does not support the video tag.
+            </video>
           </div>
         </div>
+
       </div>
     </section>
   );

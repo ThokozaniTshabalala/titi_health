@@ -20,7 +20,7 @@ const Home = () => {
       
       {/* WhatsApp Float Button */}
       <WhatsAppFloat 
-        phoneNumber="+27698061824" // Replace with your WhatsApp number
+        phoneNumber="+27683628594" // Replace with your WhatsApp number
         message="Hello! I'm interested in your services and would like to know more."
       />
     </>

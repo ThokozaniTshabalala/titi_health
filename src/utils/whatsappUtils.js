@@ -1,7 +1,7 @@
 // src/utils/whatsappUtils.js
 
 // Your business WhatsApp number (replace with your actual number)
-const BUSINESS_PHONE = "+27698061824"; // Replace with your WhatsApp number
+const BUSINESS_PHONE = "+27683628594"; // Replace with your WhatsApp number
 
 /**
  * Opens WhatsApp with a pre-filled message

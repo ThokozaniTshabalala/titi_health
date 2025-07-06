@@ -7,7 +7,7 @@
       { "service": "Consultation", "price": "R300" },
       { "service": "Follow-up Consultation (within 7 days)", "price": "R150" },
       { "service": "Wound Care", "price": "R250" },
-      { "service": "Pap Smear", "price": "R250" },
+      { "service": "Pap Smear", "price": "R450" },
       { "service": "Vitamin BCO Injection", "price": "R150" },
       { "service": "Pregnancy Test", "price": "R80" },
       { "service": "HIV Testing", "price": "R120" },
@@ -26,9 +26,9 @@
     "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
     "title": "Immunizations / Well-Baby Clinic",
     "table": [
-      { "service": "6 Weeks", "price": "R350" },
-      { "service": "10 Weeks", "price": "R200" },
-      { "service": "14 Weeks", "price": "R350" },
+      { "service": "6 Weeks", "price": "R1991,34" },
+      { "service": "10 Weeks", "price": "R1020" },
+      { "service": "14 Weeks", "price": "R1991,34" },
       { "service": "6 Months", "price": "R350" },
       { "service": "9 Months", "price": "R200" },
       { "service": "12 Months", "price": "R350" },
@@ -58,7 +58,7 @@
     "title": "Antenatal Care",
     "table": [
       { "service": "Parental Care", "price": "R350" },
-      { "service": "First ANC Visit", "price": "R550" },
+      { "service": "First ANC Visit", "price": "R950" },
       { "service": "ANC Follow-up", "price": "R400" },
       { "service": "Antenatal Classes", "price": "R500 (by booking only)" }
     ]

@@ -11,9 +11,13 @@ const BreakReminder = () => {
           You only have one body, take care of it.
         </p>
         
-        {/* Grey area for an image */}
-        <div className="bg-gray-200 rounded-2xl w-full h-80 md:h-96">
-          {/* This div is intended to hold an image, if one were to be added later */}
+        {/* Image container */}
+        <div className="bg-gray-200 rounded-2xl w-full h-80 md:h-96 overflow-hidden">
+          <img 
+            src="/massage04.png" 
+            alt="Massage break reminder" 
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
     </section>

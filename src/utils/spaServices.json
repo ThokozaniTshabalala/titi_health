@@ -1,7 +1,7 @@
 [
   {
     "id": "card1",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/ANTENATAL_023743.png",
     "price": "R 300",
     "title": "Prenatal Care",
     "description": "Our prenatal care services offer comprehensive support for expectant mothers, ensuring a healthy and comfortable pregnancy journey.",
@@ -9,7 +9,7 @@
   },
   {
     "id": "card2",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/VITAMIN-D.DRIP_025756.png",
     "price": "R 500",
     "title": "Vitamin Drip",
     "description": "Boost your energy and immunity with our revitalizing vitamin drip therapy, tailored to your body's specific needs for optimal wellness.",
@@ -17,31 +17,39 @@
   },
   {
     "id": "card3",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/BEAUTY_022343.jpg",
+    "price": "R 350",
+    "title": "Beauty Facial",
+    "description": "Indulge in our rejuvenating beauty facial treatments that cleanse, nourish, and leave your skin glowing with radiance.",
+    "buttonText": "Read More"
+  },
+  {
+    "id": "card4",
+    "image": "/ServiceCardImages/FAMILY-PLANNING_025800.png",
     "price": "R 300",
     "title": "Family Planning",
     "description": "We provide personalized family planning consultations, offering guidance and support for informed choices about your reproductive health.",
     "buttonText": "Read More"
   },
   {
-    "id": "card4",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "id": "card5",
+    "image": "/ServiceCardImages/WELL-BABY-CARE_024656.png",
     "price": "R 400",
     "title": "Well Baby Clinic/Immunizations",
     "description": "Our Well Baby Clinic provides essential health checks and immunizations for your little one, ensuring a healthy start to life.",
     "buttonText": "Read More"
   },
   {
-    "id": "card5",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "id": "card6",
+    "image": "/ServiceCardImages/CONSULTATION_023737.png",
     "price": "R 200",
     "title": "General Consultations",
     "description": "We offer general health consultations for various concerns, providing professional medical advice and treatment plans.",
     "buttonText": "Read More"
   },
   {
-    "id": "card6",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "id": "card7",
+    "image": "/ServiceCardImages/PREP-MEDICATION_025801.png",
     "price": "R 400",
     "title": "PRPP Treatment",
     "description": "Experience the rejuvenating benefits of our PRPP (Platelet-Rich Plasma Professional) treatment, designed to enhance natural healing and recovery.",

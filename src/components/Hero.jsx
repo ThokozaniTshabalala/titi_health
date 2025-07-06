@@ -27,7 +27,14 @@ const Hero = () => {
       </div>
 
       {/* Image */}
-      <div className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] bg-gray-300 rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] mt-6 lg:mt-0"></div>
+      <div className="w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px] bg-gray-300 rounded-[30px] sm:rounded-[40px] lg:rounded-[50px] mt-6 lg:mt-0 overflow-hidden">
+        <img 
+        src="/massage_person.jpg" 
+        alt="a person receiving a massage"
+        className="w-full h-full object-cover"
+        />
+      </div>
+
     </section>
   );
 };
