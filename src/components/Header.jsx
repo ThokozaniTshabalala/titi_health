@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';  // <-- Import Link
+import { Link } from 'react-router-dom';
+import { whatsappActions } from '../utils/whatsappUtils'; // Import WhatsApp actions
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,16 +27,22 @@ const Header = () => {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex space-x-2">
-          <button className="px-4 py-1 rounded border border-pink-400 text-pink-600 bg-pink-100/30 backdrop-blur-md shadow-sm hover:bg-pink-100/50 transition">
+          <button
+            onClick={whatsappActions.bookSession}
+            className="px-4 py-1 rounded border border-pink-400 text-pink-600 bg-pink-100/30 backdrop-blur-md shadow-sm hover:bg-pink-100/50 transition"
+          >
             Book
           </button>
-          <button className="px-4 py-1 rounded text-white bg-pink-500/90 backdrop-blur-md shadow-sm hover:bg-pink-400/90 transition">
+          <button
+            onClick={whatsappActions.requestConsultation}
+            className="px-4 py-1 rounded text-white bg-pink-500/90 backdrop-blur-md shadow-sm hover:bg-pink-400/90 transition"
+          >
             Enquire
           </button>
         </div>
 
         {/* Hamburger Menu Button (Mobile) */}
-        <button 
+        <button
           className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1.5"
           onClick={toggleMenu}
           aria-label="Toggle menu"
@@ -51,29 +58,29 @@ const Header = () => {
         <div className="px-6 py-4 space-y-4">
           {/* Mobile Navigation */}
           <nav className="space-y-3">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="block text-lg text-gray-500 hover:text-pink-400 py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
-            <Link 
-              to="/services" 
+            <Link
+              to="/services"
               className="block text-lg text-gray-500 hover:text-pink-400 py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
               Services
             </Link>
-            <Link 
-              to="/about" 
+            <Link
+              to="/about"
               className="block text-lg text-gray-500 hover:text-pink-400 py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
               About us
             </Link>
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="block text-lg text-gray-500 hover:text-pink-400 py-2 border-b border-gray-100"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -83,15 +90,21 @@ const Header = () => {
 
           {/* Mobile Buttons */}
           <div className="flex flex-col space-y-3 pt-4">
-            <button 
+            <button
               className="w-full px-4 py-3 rounded border border-pink-400 text-pink-600 bg-pink-100/30 backdrop-blur-md shadow-sm hover:bg-pink-100/50 transition text-center"
-              onClick={() => setIsMenuOpen(false)}
+              onClick={() => {
+                setIsMenuOpen(false);
+                whatsappActions.bookSession();
+              }}
             >
               Book
             </button>
-            <button 
+            <button
               className="w-full px-4 py-3 rounded text-white bg-pink-500/90 backdrop-blur-md shadow-sm hover:bg-pink-400/90 transition text-center"
-              onClick={() => setIsMenuOpen(false)}
+              onClick={() => {
+                setIsMenuOpen(false);
+                whatsappActions.requestConsultation();
+              }}
             >
               Enquire
             </button>

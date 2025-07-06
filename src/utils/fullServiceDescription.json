@@ -1,7 +1,7 @@
 [
   {
     "id": "card1",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/CONSULTATION_023737.png",
     "title": "General Health & Consultation",
     "table": [
       { "service": "Consultation", "price": "R300" },
@@ -23,7 +23,7 @@
   },
   {
     "id": "card2",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/WELL-BABY-CARE_024656.png",
     "title": "Immunizations / Well-Baby Clinic",
     "table": [
       { "service": "6 Weeks", "price": "R1991,34" },
@@ -41,7 +41,7 @@
   },
   {
     "id": "card3",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/FAMILY-PLANNING_025800.png",
     "title": "Family Planning & Sexual Reproductive Health",
     "table": [
       { "service": "First Visit Family Planning", "price": "R150" },
@@ -54,7 +54,7 @@
   },
   {
     "id": "card4",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/ANTENATAL_023743.png",
     "title": "Antenatal Care",
     "table": [
       { "service": "Parental Care", "price": "R350" },
@@ -65,7 +65,7 @@
   },
   {
     "id": "card5",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/PREP-MEDICATION_025801.png",
     "title": "PREP Treatment",
     "table": [
       { "service": "PREP Treatment (First Visit)", "price": "R500" },
@@ -74,7 +74,7 @@
   },
   {
     "id": "card6",
-    "image": "/ServiceCardImages/Whisk_767129d2f6.jpg",
+    "image": "/ServiceCardImages/VITAMIN-D.DRIP_025756.png",
     "title": "Vitamin Drip Menu (All Drips R600)",
     "table": [
       { "service": "Flawless Glow", "price": "R600" },
