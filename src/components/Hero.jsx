@@ -13,7 +13,7 @@ const Hero = () => {
           to Rest
         </h3>
         <p className="py-2 lg:py-4 mb-3 lg:mb-4 text-black text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
-          Slow down, heal, and feel whole again — because true beauty begins with wellness.
+          <span className="font-semibold text-pink-500">Professional health care</span> meets beauty — at our clinic, <span className="font-semibold text-pink-500">your wellness comes first.</span>
         </p>
         <p className="mb-6 lg:mb-9 text-black text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
           Give your body what it needs, book an appointment now
